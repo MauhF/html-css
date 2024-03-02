@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: lightgrey;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#div1{
+    background-color: red;
+    height: 30px;
+}
+#div1:hover {
+    background-color: lightblue;
+}
+
+#div2{
+    background-image: linear-gradient(to bottom, red, yellow);
+}
+#div3{
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#div4{
+    background-color: yellow;
+    font-size: 1.5em;
+}
+#dentro {
+    background-color: white;
+}
+
+a:hover {
+    color: red;
+}
