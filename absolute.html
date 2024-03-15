@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute</title>
+</head>
+<style>
+    div{
+        border: 1px solid black;
+    }
+    .out{
+        position: relative;
+        width: 600px;
+        height: 200px;
+        top: 10px;
+
+    }
+    .midlle{
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        left: 50px;
+        top: 0px;
+        overflow: scroll;
+    }
+    .in{
+        position: absolute;
+        width: 50px;
+        height: 25px;
+        top: 10px;
+        left: 50px;
+    }
+
+</style>
+<body>
+    <div class="out">out
+        <div class="midlle">midlle
+            <div class="in">in</div>
+        </div> 
+    </div>
+
+    
+</body>
+</html>
